@@ -304,44 +304,6 @@
           </binding>
       </key>
 
-      <key n="113">
-        <name>q</name>
-        <desc>Toggle Master Arm on</desc>
-        <binding>
-          <command>property-adjust</command>
-          <property>/controls/armament/master-arm</property>
-          <step type="double">1</step>
-          <min type="double">0</min>
-          <max type="double">1</max>
-        </binding>
-      </key>
-      <key n="81">
-        <name>Q</name>
-        <desc>Toggle Master Arm off</desc>
-        <binding>
-          <command>property-adjust</command>
-          <property>/controls/armament/master-arm</property>
-          <step type="double">-1</step>
-          <min type="double">0</min>
-          <max type="double">1</max>
-        </binding>
-      </key>
-      <key n="101">
-        <name>e</name>
-        <desc>Fire MGs</desc>
-        <binding>
-            <command>property-toggle</command>
-            <property>controls/armament/trigger</property>
-        </binding>
-        <mod-up>
-          <binding>
-            <command>property-toggle</command>
-            <property>controls/armament/trigger</property>
-          </binding>
-        </mod-up>
-      </key>
-
-
     </keyboard>
   </input>
   <nasal>
@@ -359,8 +321,5 @@
     <engine>
       <file>Aircraft/jeep/Nasal/engine.nas</file>
     </engine>
-    <weapons>
-      <file>Aircraft/jeep/Nasal/weapons.nas</file>
-    </weapons>
  </nasal>
 </PropertyList>
