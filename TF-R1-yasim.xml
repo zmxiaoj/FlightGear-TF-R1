@@ -3,12 +3,13 @@
 <approach speed="35" /> <!-- reduce to increase compression -->
 <cruise speed="45" />
 
+<!-- dummy rotor to avoid automatic Yasim trimming -->
 <rotorgear
   yasimdragfactor="1"
   yasimliftfactor="1" >
 </rotorgear>
 
-<fuselage ax="-0.0"  ay="0" az="0.7" bx="-3.3" by="0" bz="0.7" 
+<fuselage ax="-0.0"  ay="0" az="0.7" bx="-3.3" by="0" bz="0.7"
 width="0.5" taper="1" cx="2.5" cz="2.5"/>
 
 <wing x="-1.00" y="0.0" z="0.6" taper="1.0" camber="0"

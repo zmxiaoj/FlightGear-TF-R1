@@ -12,7 +12,7 @@
     <author>Detlef Faber</author>
     <status>alpha</status>
     <flight-model>yasim</flight-model>
-    <aero>jeep-yasim</aero>
+    <aero>TF-R1-yasim</aero>
     <armament include="Include/armament.xml"/>
 
     <virtual-cockpit archive="y">true</virtual-cockpit>
@@ -27,7 +27,7 @@
       <path>Aircraft/Generic/generic-sound.xml</path>
     </sound>
 
-    <submodels> 
+    <submodels>
       <serviceable type="bool">true</serviceable>
       <path>Aircraft/jeep/Models/submodels.xml</path>
     </submodels>
@@ -59,8 +59,8 @@
         <texture>jeep-1.png</texture>
         <texture-roof>softroof.png</texture-roof>
       </livery>
-    </model> 
-  
+    </model>
+
     <chase-distance-m type="double" archive="y">-9.0</chase-distance-m>
     <view n="0">
       <internal archive="y">true</internal>
@@ -225,7 +225,7 @@
  <engines>
   <engine>
    <rpm type="double">200</rpm>
-    <throttle-c type="float">0</throttle-c>	
+    <throttle-c type="float">0</throttle-c>
   <transmission>
     <auto_shift type="bool">true</auto_shift>
     <gear n="0">
@@ -284,30 +284,30 @@
   </controls>
 <input>
     <keyboard>
-        <key n="77"> 
+        <key n="77">
           <name>M</name>
           <desc>engage Reverse</desc>
-          <binding> 
+          <binding>
             <command>property-assign</command>
             <property>controls/engines/engine[0]/mixture</property>
             <value type="double">0.0</value>
           </binding>
         </key>
 
-        <key n="109"> 
+        <key n="109">
           <name>m</name>
           <desc>disengage Reverse</desc>
-          <binding> 
+          <binding>
             <command>property-assign</command>
             <property>controls/engines/engine[0]/mixture</property>
             <value type="double">1.0</value>
           </binding>
       </key>
 
-      <key n="113"> 
+      <key n="113">
         <name>q</name>
         <desc>Toggle Master Arm on</desc>
-        <binding> 
+        <binding>
           <command>property-adjust</command>
           <property>/controls/armament/master-arm</property>
           <step type="double">1</step>
@@ -315,17 +315,17 @@
           <max type="double">1</max>
         </binding>
       </key>
-      <key n="81"> 
+      <key n="81">
         <name>Q</name>
         <desc>Toggle Master Arm off</desc>
-        <binding> 
+        <binding>
           <command>property-adjust</command>
           <property>/controls/armament/master-arm</property>
           <step type="double">-1</step>
           <min type="double">0</min>
           <max type="double">1</max>
         </binding>
-      </key>  
+      </key>
       <key n="101">
         <name>e</name>
         <desc>Fire MGs</desc>
@@ -364,7 +364,3 @@
     </weapons>
  </nasal>
 </PropertyList>
-
-
-
-
