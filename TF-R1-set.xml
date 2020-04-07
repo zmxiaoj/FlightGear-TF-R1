@@ -2,10 +2,6 @@
 
 
 <PropertyList>
-<combat>true</combat>
-<hitcount>0</hitcount>
-<size>5</size>
-
   <sim>
 
     <description>Willys Jeep</description>
@@ -13,7 +9,6 @@
     <status>alpha</status>
     <flight-model>yasim</flight-model>
     <aero>TF-R1-yasim</aero>
-    <armament include="Include/armament.xml"/>
 
     <virtual-cockpit archive="y">true</virtual-cockpit>
     <allow-toggle-cockpit archive="y">true</allow-toggle-cockpit>
