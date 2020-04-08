@@ -8,7 +8,7 @@
   <nasal>
     <load>
       var update = aircraft.overlay_update.new();
-      update.add("Aircraft/jeep/Models/AI-Liveries", "sim/model/livery/file");
+      update.add("Aircraft/TF-R1/Models/AI-Liveries", "sim/model/livery/file");
 
     </load>
     <unload>
@@ -17,8 +17,8 @@
     </unload>
   </nasal>
 
-  <model> 
-    <path>Aircraft/jeep/Models/panel.xml</path>
+  <model>
+    <path>Aircraft/TF-R1/Models/panel.xml</path>
 <!--
     <condition>
       <equals>
@@ -31,9 +31,9 @@
 
 
 <!-- Lighting -->
-  <model> 
-    <path>Aircraft/jeep/Models/Effects/headlight.xml</path>
-    <offsets> 
+  <model>
+    <path>Aircraft/TF-R1/Models/Effects/headlight.xml</path>
+    <offsets>
       <x-m>0.26</x-m>
       <y-m>0.39</y-m>
       <z-m>0.99</z-m>
@@ -45,9 +45,9 @@
       </equals>
     </condition>
   </model>
-  <model> 
-      <path>Aircraft/jeep/Models/Effects/headlight.xml</path>
-      <offsets> 
+  <model>
+      <path>Aircraft/TF-R1/Models/Effects/headlight.xml</path>
+      <offsets>
         <x-m>0.26</x-m>
         <y-m>-0.39</y-m>
         <z-m>0.99</z-m>
@@ -60,19 +60,19 @@
     </condition>
   </model>
 
-  <model> 
-      <path>Aircraft/jeep/Models/Effects/rearlight.xml</path>
+  <model>
+      <path>Aircraft/TF-R1/Models/Effects/rearlight.xml</path>
       <name>rearlight.R</name>
-      <offsets> 
+      <offsets>
         <x-m>3.3</x-m>
         <y-m>0.52935</y-m>
         <z-m>0.66444</z-m>
       </offsets>
   </model>
-  <model> 
-      <path>Aircraft/jeep/Models/Effects/rearlight.xml</path>
+  <model>
+      <path>Aircraft/TF-R1/Models/Effects/rearlight.xml</path>
       <name>rearlight.L</name>
-      <offsets> 
+      <offsets>
         <x-m>3.3</x-m>
         <y-m>-0.52935</y-m>
         <z-m>0.66444</z-m>
@@ -91,59 +91,59 @@
   </condition>
  </animation>
 
-  <model> 
-      <path>Aircraft/jeep/Models/Effects/indicatorF.xml</path>
-      <offsets> 
+  <model>
+      <path>Aircraft/TF-R1/Models/Effects/indicatorF.xml</path>
+      <offsets>
         <x-m>0.26</x-m>
         <y-m>-0.36158</y-m>
         <z-m>0.82749</z-m>
       </offsets>
     <condition>
       <equals>
-        <property>sim/model/jeep/lighting/indicator_left/state</property>
+        <property>sim/model/TF-R1/lighting/indicator_left/state</property>
         <value>1</value>
       </equals>
     </condition>
   </model>
-  <model> 
-      <path>Aircraft/jeep/Models/Effects/indicatorF.xml</path>
-      <offsets> 
+  <model>
+      <path>Aircraft/TF-R1/Models/Effects/indicatorF.xml</path>
+      <offsets>
         <x-m>0.26</x-m>
         <y-m>0.36158</y-m>
         <z-m>0.82749</z-m>
       </offsets>
     <condition>
       <equals>
-        <property>sim/model/jeep/lighting/indicator_right/state</property>
+        <property>sim/model/TF-R1/lighting/indicator_right/state</property>
         <value>1</value>
       </equals>
     </condition>
   </model>
 
-  <model> 
-      <path>Aircraft/jeep/Models/Effects/indicatorR.xml</path>
-      <offsets> 
+  <model>
+      <path>Aircraft/TF-R1/Models/Effects/indicatorR.xml</path>
+      <offsets>
         <x-m>3.3</x-m>
         <y-m>-0.63643</y-m>
         <z-m>0.60887</z-m>
       </offsets>
     <condition>
       <equals>
-        <property>sim/model/jeep/lighting/indicator_left/state</property>
+        <property>sim/model/TF-R1/lighting/indicator_left/state</property>
         <value>1</value>
       </equals>
     </condition>
   </model>
-  <model> 
-      <path>Aircraft/jeep/Models/Effects/indicatorR.xml</path>
-      <offsets> 
+  <model>
+      <path>Aircraft/TF-R1/Models/Effects/indicatorR.xml</path>
+      <offsets>
         <x-m>3.3</x-m>
         <y-m>0.63643</y-m>
         <z-m>0.60887</z-m>
       </offsets>
     <condition>
       <equals>
-        <property>sim/model/jeep/lighting/indicator_right/state</property>
+        <property>sim/model/TF-R1/lighting/indicator_right/state</property>
         <value>1</value>
       </equals>
     </condition>
@@ -151,10 +151,10 @@
 
 <!-- wheels -->
 
-  <model> 
-      <path>Aircraft/jeep/Models/wheel1.xml</path>
+  <model>
+      <path>Aircraft/TF-R1/Models/wheel1.xml</path>
       <name>fwheel.L</name>
-      <offsets> 
+      <offsets>
         <x-m>0.55394</x-m>
         <y-m>-0.66036</y-m>
         <z-m>0.40773</z-m>
@@ -162,10 +162,10 @@
       </offsets>
   </model>
 
-  <model> 
-      <path>Aircraft/jeep/Models/wheel1.xml</path>
+  <model>
+      <path>Aircraft/TF-R1/Models/wheel1.xml</path>
       <name>rwheel.L</name>
-      <offsets> 
+      <offsets>
         <x-m>2.69645</x-m>
         <y-m>-0.66036</y-m>
         <z-m>0.40773</z-m>
@@ -173,20 +173,20 @@
       </offsets>
   </model>
 
-  <model> 
-      <path>Aircraft/jeep/Models/wheel1.xml</path>
+  <model>
+      <path>Aircraft/TF-R1/Models/wheel1.xml</path>
       <name>fwheel.R</name>
-      <offsets> 
+      <offsets>
         <x-m>0.55394</x-m>
         <y-m>0.66036</y-m>
         <z-m>0.40773</z-m>
       </offsets>
   </model>
 
-  <model> 
-    <path>Aircraft/jeep/Models/wheel1.xml</path>
+  <model>
+    <path>Aircraft/TF-R1/Models/wheel1.xml</path>
     <name>rwheel.R</name>
-    <offsets> 
+    <offsets>
         <x-m>2.69645</x-m>
         <y-m>0.66036</y-m>
         <z-m>0.40773</z-m>
@@ -602,11 +602,11 @@
   </axis>
  </animation>
 
-    <model> 
-      <path>Aircraft/jeep/Models/pilot.xml</path>
+    <model>
+      <path>Aircraft/TF-R1/Models/pilot.xml</path>
 	  <name>pilot</name>
 		<nopreview/>
-      <offsets> 
+      <offsets>
         <x-m>2.1</x-m>
         <y-m>-0.32</y-m>
         <z-m>0.9</z-m>
@@ -696,8 +696,8 @@
   </animation>
 
 <!-- Variants -->
-  <model> 
-    <path>Aircraft/jeep/Models/default.xml</path>
+  <model>
+    <path>Aircraft/TF-R1/Models/default.xml</path>
     <name>Default Jeep</name>
     <condition>
       <not-equals>
@@ -707,8 +707,8 @@
     </condition>
   </model>
 
-  <model> 
-    <path>Aircraft/jeep/Models/airborn.xml</path>
+  <model>
+    <path>Aircraft/TF-R1/Models/airborn.xml</path>
     <name>British Airborn Jeep</name>
     <condition>
       <equals>
@@ -718,8 +718,8 @@
     </condition>
   </model>
 
-  <model> 
-    <path>Aircraft/jeep/Models/hippie.xml</path>
+  <model>
+    <path>Aircraft/TF-R1/Models/hippie.xml</path>
     <name>British Airborn Jeep</name>
     <condition>
       <equals>
@@ -729,8 +729,8 @@
     </condition>
   </model>
 
-  <model> 
-    <path>Aircraft/jeep/Models/followme.xml</path>
+  <model>
+    <path>Aircraft/TF-R1/Models/followme.xml</path>
     <name>Followme Jeep</name>
     <condition>
       <equals>
@@ -740,8 +740,8 @@
     </condition>
   </model>
 
-  <model> 
-    <path>Aircraft/jeep/Models/armygun.xml</path>
+  <model>
+    <path>Aircraft/TF-R1/Models/armygun.xml</path>
     <name>Army Jeep with M2 gun</name>
     <condition>
       <equals>
@@ -904,4 +904,3 @@
 
 
 </PropertyList>
- 
