@@ -24,7 +24,7 @@
 
     <submodels>
       <serviceable type="bool">true</serviceable>
-      <path>Aircraft/jeep/Models/submodels.xml</path>
+      <path>Aircraft/TF-R1/Models/submodels.xml</path>
     </submodels>
 
     <model>
@@ -167,7 +167,7 @@
     <menubar>
       <default>
         <menu n="10">
-          <label>Jeep</label>
+          <label>TF-R1</label>
           <enabled type="bool">true</enabled>
           <item>
             <label>tilt Windscreen forward</label>
@@ -204,11 +204,11 @@
     <systems>
       <property-rule n="100">
         <name>Engine</name>
-        <path>Aircraft/jeep/Systems/engine.xml</path>
+        <path>Aircraft/TF-R1/Systems/engine.xml</path>
       </property-rule>
       <property-rule n="101">
         <name>Weapons</name>
-        <path>Aircraft/jeep/Systems/weapon-filters.xml</path>
+        <path>Aircraft/TF-R1/Systems/weapon-filters.xml</path>
       </property-rule>
     </systems>
   </sim>
@@ -298,19 +298,19 @@
     </keyboard>
   </input>
   <nasal>
-    <jeep>
-      <file>Aircraft/jeep/Nasal/jeep.nas</file>
-    </jeep>
+    <TF-R1>
+      <file>Aircraft/TF-R1/Nasal/jeep.nas</file>
+    </TF-R1>
 <!--
     <hitcheck>
       <file>Aircraft/jeep/Nasal/hitcheck.nas</file>
     </hitcheck>
 -->
     <failure>
-      <file>Aircraft/jeep/Nasal/failure.nas</file>
+      <file>Aircraft/TF-R1/Nasal/failure.nas</file>
     </failure>
     <engine>
-      <file>Aircraft/jeep/Nasal/engine.nas</file>
+      <file>Aircraft/TF-R1/Nasal/engine.nas</file>
     </engine>
  </nasal>
 </PropertyList>
