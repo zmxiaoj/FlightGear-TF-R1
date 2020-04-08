@@ -4,7 +4,7 @@
 <PropertyList>
   <sim>
 
-    <description>Willys Jeep</description>
+    <description>ThunderFly TF-R1 UAV rover</description>
     <author>Detlef Faber</author>
     <status>alpha</status>
     <flight-model>yasim</flight-model>
@@ -27,12 +27,8 @@
       <path>Aircraft/jeep/Models/submodels.xml</path>
     </submodels>
 
-    <flight-recorder>
-      <default-config type="string">/Aircraft/jeep/Include/jeep-flight-recorder.xml</default-config>
-    </flight-recorder>
-
     <model>
-      <path>Aircraft/jeep/Models/Jeep.xml</path>
+      <path>Aircraft/TF-R1/Models/Jeep.xml</path>
       <crew>
         <pilot>
           <visible type="int">1</visible>
@@ -40,19 +36,19 @@
       </crew>
       <livery>
         <file/>
-        <name type="string">US Army green</name>
-        <default>1</default>
+        <name type="string">Followme Jeep</name>
+        <default>0</default>
         <screen>1</screen>
         <grille>1</grille>
         <roof>1</roof>
-        <canister>1</canister>
-        <spare>1</spare>
+        <canister>0</canister>
+        <spare>0</spare>
         <bumperends>1</bumperends>
-        <tools>1</tools>
+        <tools>0</tools>
         <screenstops>1</screenstops>
         <carrierframe>0</carrierframe>
-        <texture>jeep-1.png</texture>
-        <texture-roof>softroof.png</texture-roof>
+        <texture>Liveries/jeep-1e.png</texture>
+        <texture-roof>Liveries/softroof-b.png</texture-roof>
       </livery>
     </model>
 
