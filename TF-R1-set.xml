@@ -151,7 +151,10 @@
 
 
     <hud>
-      <enable3d>false</enable3d>
+      <path n="1">Aircraft/TF-R1/config/hud.xml</path>
+            <visibility n="1">true</visibility>
+            <enable3d n="1">false</enable3d>
+            <transparent n="1">false</transparent>
     </hud>
 
     <help>
@@ -205,10 +208,6 @@
       <property-rule n="100">
         <name>Engine</name>
         <path>Aircraft/TF-R1/Systems/engine.xml</path>
-      </property-rule>
-      <property-rule n="101">
-        <name>Weapons</name>
-        <path>Aircraft/TF-R1/Systems/weapon-filters.xml</path>
       </property-rule>
     </systems>
   </sim>
