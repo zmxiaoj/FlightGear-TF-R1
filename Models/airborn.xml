@@ -2,12 +2,12 @@
 
 <PropertyList>
 
-  <model> 
-    <path>Aircraft/jeep/Models/Loads/browning30.xml</path>
+  <model>
+    <path>Aircraft/TF-R1/Models/Loads/browning30.xml</path>
     <name>browning30 front</name>
     <nopreview/>
 
-    <offsets> 
+    <offsets>
       <x-m>1.2</x-m>
       <y-m>0.5</y-m>
       <z-m>1.4</z-m>
@@ -15,10 +15,10 @@
     </offsets>
   </model>
 
-  <model> 
-      <path>Aircraft/jeep/Models/wheel1.xml</path>
+  <model>
+      <path>Aircraft/TF-R1/Models/wheel1.xml</path>
       <name>sparewheel.F</name>
-      <offsets> 
+      <offsets>
         <x-m>0.17</x-m>
         <y-m>0.0</y-m>
         <z-m>0.761</z-m>
@@ -27,11 +27,11 @@
       </offsets>
   </model>
 
-  <model> 
-    <path>Aircraft/jeep/Models/canister.ac</path>
+  <model>
+    <path>Aircraft/TF-R1/Models/canister.ac</path>
     <name>rearcan</name>
     <nopreview/>
-    <offsets> 
+    <offsets>
       <x-m>2.23</x-m>
       <y-m>0.0</y-m>
       <z-m>0.69</z-m>
@@ -41,11 +41,11 @@
     </offsets>
   </model>
 
-  <model> 
-    <path>Aircraft/jeep/Models/shovel.ac</path>
+  <model>
+    <path>Aircraft/TF-R1/Models/shovel.ac</path>
     <name>shovel</name>
     <nopreview/>
-    <offsets> 
+    <offsets>
       <x-m>-0.0281</x-m>
       <y-m>0.243</y-m>
       <z-m>0.629</z-m>

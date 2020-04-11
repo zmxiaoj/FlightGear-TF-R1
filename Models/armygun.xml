@@ -2,12 +2,12 @@
 
 <PropertyList>
 
-  <model> 
-    <path>Aircraft/jeep/Models/Loads/browning50.xml</path>
+  <model>
+    <path>Aircraft/TF-R1/Models/Loads/browning50.xml</path>
     <name>browning50</name>
     <nopreview/>
 
-    <offsets> 
+    <offsets>
       <x-m>2.249</x-m>
       <y-m>0.0</y-m>
       <z-m>1.9</z-m>

@@ -27,7 +27,7 @@
     <wind alias="../../Browning50/wind"/>
     <weight alias="../../Browning50/weight"/>
     <cd alias="../../Browning50/cd"/>
-    <eda alias="../../Browning50/eda"/> 
+    <eda alias="../../Browning50/eda"/>
     <collision alias="../../Browning50/collision"/>
     <collision-reports alias="../../Browning50/collision-reports"/>
     <impact alias="../../Browning50/impact"/>
@@ -58,7 +58,7 @@
     <wind alias="../../Browning30/wind"/>
     <weight alias="../../Browning30/weight"/>
     <cd alias="../../Browning30/cd"/>
-    <eda alias="../../Browning50/eda"/> 
+    <eda alias="../../Browning50/eda"/>
     <collision alias="../../Browning30/collision"/>
     <collision-reports alias="../../Browning30/collision-reports"/>
     <impact alias="../../Browning30/impact"/>
@@ -68,7 +68,7 @@
 
   <submodel>
     <name>cases</name>
-    <model>Aircraft/jeep/Models/case.ac</model>
+    <model>Aircraft/TF-R1/Models/case.ac</model>
     <trigger>sim/armament/gun[0]/fire</trigger>
     <speed>20.0</speed>
     <life>3.0</life>
@@ -83,7 +83,7 @@
       <pitch-deg>
         <property>sim/armament/browning/elevation</property>
       </pitch-deg>
-    </offsets>    
+    </offsets>
     <delay alias="../../Browning50/delay"/>
     <count alias="../../Browning50/count"/>
     <repeat alias="../../Browning50/repeat"/>
@@ -99,12 +99,12 @@
     <wind>false</wind>
     <weight>0.1069</weight>
     <cd>0.193</cd>
-    <eda>0.00136354</eda> 
+    <eda>0.00136354</eda>
     <collision>true</collision>
     <collision-reports>model-impact</collision-reports>
     <impact>true</impact>
     <impact-reports>ai/models/model-impact</impact-reports>
-    <submodel-path>Aircraft/jeep/Models/subsubmodels.xml</submodel-path>
+    <submodel-path>Aircraft/TF-R1/Models/subsubmodels.xml</submodel-path>
   </Browning50>
 
   <Browning30>
@@ -117,7 +117,7 @@
     <wind>false</wind>
     <weight>0.0249</weight>
     <cd>0.193</cd>
-    <eda>0.00136354</eda> 
+    <eda>0.00136354</eda>
     <collision>true</collision>
     <collision-reports>ai/models/model-impact</collision-reports>
     <impact>true</impact>

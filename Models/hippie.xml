@@ -2,10 +2,10 @@
 
 <PropertyList>
 
-  <model> 
-      <path>Aircraft/jeep/Models/wheel1.xml</path>
+  <model>
+      <path>Aircraft/TF-R1/Models/wheel1.xml</path>
       <name>sparewheel.R</name>
-      <offsets> 
+      <offsets>
         <x-m>3.464</x-m>
         <y-m>0.332</y-m>
         <z-m>1.0</z-m>

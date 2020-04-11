@@ -4,42 +4,42 @@
 
  <path>panel.ac</path>
 
-    <model> 
-      <path>Aircraft/jeep/Models/Instruments/fuel/fuelgauge.xml</path>
-      <offsets> 
+    <model>
+      <path>Aircraft/TF-R1/Models/Instruments/fuel/fuelgauge.xml</path>
+      <offsets>
         <x-m>1.44</x-m>
         <y-m>-0.237</y-m>
         <z-m>1.04</z-m>
       </offsets>
     </model>
-	<model> 
-      <path>Aircraft/jeep/Models/Instruments/speedometer/speedometer.xml</path>
-      <offsets> 
+	<model>
+      <path>Aircraft/TF-R1/Models/Instruments/speedometer/speedometer.xml</path>
+      <offsets>
         <x-m>1.44</x-m>
         <y-m>-0.131</y-m>
         <z-m>1.024</z-m>
       </offsets>
     </model>
-    <model> 
-      <path>Aircraft/jeep/Models/Instruments/current/current.xml</path>
-      <offsets> 
+    <model>
+      <path>Aircraft/TF-R1/Models/Instruments/current/current.xml</path>
+      <offsets>
         <x-m>1.44</x-m>
         <y-m>-0.025</y-m>
         <z-m>1.04</z-m>
       </offsets>
     </model>
 <!--
-    <model> 
+    <model>
       <path>Aircraft/jeep/Models/Instruments/oiltemp/oiltemp.xml</path>
-      <offsets> 
+      <offsets>
         <x-m>1.44</x-m>
         <y-m>-0.053</y-m>
         <z-m>0.964</z-m>
       </offsets>
     </model>
-    <model> 
+    <model>
       <path>Aircraft/jeep/Models/Instruments/oiltemp/oiltemp.xml</path>
-      <offsets> 
+      <offsets>
         <x-m>1.44</x-m>
         <y-m>-0.213</y-m>
         <z-m>0.964</z-m>
