@@ -2,10 +2,10 @@
 
 <PropertyList>
 
-  <model> 
-      <path>Aircraft/jeep/Models/wheel1.xml</path>
+  <model>
+      <path>Aircraft/TF-R1/Models/wheel1.xml</path>
       <name>sparewheel.R</name>
-      <offsets> 
+      <offsets>
         <x-m>3.464</x-m>
         <y-m>0.332</y-m>
         <z-m>1.05</z-m>
@@ -14,11 +14,11 @@
       </offsets>
   </model>
 
-  <model> 
-    <path>Aircraft/jeep/Models/canister.ac</path>
+  <model>
+    <path>Aircraft/TF-R1/Models/canister.ac</path>
     <name>rearcan</name>
     <nopreview/>
-    <offsets> 
+    <offsets>
       <x-m>3.39</x-m>
       <y-m>-0.35</y-m>
       <z-m>0.79</z-m>
@@ -26,11 +26,11 @@
     </offsets>
   </model>
 
-  <model> 
-    <path>Aircraft/jeep/Models/axe.ac</path>
+  <model>
+    <path>Aircraft/TF-R1/Models/axe.ac</path>
     <name>axe</name>
     <nopreview/>
-    <offsets> 
+    <offsets>
       <x-m>1.715</x-m>
       <y-m>-0.762</y-m>
       <z-m>0.649</z-m>
@@ -38,11 +38,11 @@
     </offsets>
   </model>
 
-  <model> 
-    <path>Aircraft/jeep/Models/shovel.ac</path>
+  <model>
+    <path>Aircraft/TF-R1/Models/shovel.ac</path>
     <name>shovel</name>
     <nopreview/>
-    <offsets> 
+    <offsets>
       <x-m>1.481</x-m>
       <y-m>-0.713</y-m>
       <z-m>0.74</z-m>

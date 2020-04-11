@@ -2,8 +2,8 @@
 
 <PropertyList>
 
-  <model> 
-    <path>Aircraft/jeep/Models/Loads/followme.xml</path>
+  <model>
+    <path>Aircraft/TF-R1/Models/Loads/followme.xml</path>
     <name>Sign</name>
     <nopreview/>
 
